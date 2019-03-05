@@ -1,0 +1,22 @@
+QTableView {
+	alternate-background-color: #000000;
+	background: #0C0C0C;
+    selection-background-color: #262525;
+	color: #FFFFFF;
+}
+
+QTableView QHeaderView:section {
+    background-color: rgb(23, 23, 38);
+    color: #FFFFFF;
+    height: 40px;
+    border-left: 0px;
+    border: 1px solid #0C0C0C;
+    font-size: 14px;
+}
+ 
+QLineEdit {
+    border: 0px solid transparent;
+    background: #C8A355;
+    padding: 0 3px;
+}
+
